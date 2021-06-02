@@ -1,5 +1,5 @@
 <?php //htmlを書かない場合は閉じタグは省略する
-declare(strict_types=1);//引数の型の厳密な指定 式の途中には入れれない
+declare(strict_types=1);//引数の型の厳密な指定 式の途中には入れられない
 $name = 'Fukushima';
 
 echo 'こんにちは' . PHP_EOL; //PHP_EOLはあらかじめ定義されている改行を表す定数
